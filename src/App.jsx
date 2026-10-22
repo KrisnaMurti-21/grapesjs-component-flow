@@ -12,7 +12,7 @@ export default function App() {
     <div style={{ height: "100vh" }}>
       <StudioEditor
         options={{
-          licenseKey: import.meta.env.GRAPESJS_LICENSE_KEY,
+          licenseKey: __GRAPESJS_LICENSE_KEY__,
           blocks: { default: semuaBlok },
           project: {
             type: "web",
